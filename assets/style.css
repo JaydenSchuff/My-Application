@@ -30,28 +30,32 @@ a{
 h2{
   border:solid 6px black;
   justify-content: center;
-  display: flex;
   font-size: 30px;
   background-color: darkslategray;
   color:white;
   margin: 20px;
-  width: 400px;
+  text-align: center;
 }
 
-p{
+.about{
   border:solid 6px black;
   justify-content: center;
-  display: flex;
   font-size: 30px;
   background-color: darkslategray;
   color:white;
-  margin: 20px;
   width: 400px;
-
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 img{
-  width: 500px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  border: 6px solid black;
+}
+
+.aboutme{
   display: flex;
   justify-content: center;
 }
