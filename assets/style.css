@@ -93,3 +93,16 @@ p1{
   width: 400px; ; 
   }
 }
+
+@media screen and (max-width: 768px) {
+  p1{
+  border:solid 6px grey;
+  justify-content: center;
+  display: flex;
+  font-size: 30px;
+  background-color: silver;
+  color:red;
+  margin: 20px;
+  width: 400px; ; 
+  }
+}
