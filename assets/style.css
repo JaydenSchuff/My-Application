@@ -63,6 +63,13 @@ img{
 
 
 @media screen and (max-width: 768px) {
+  .aboutme {
+    background-color: maroon;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 768px) {
   nav {
     background-color: silver;
     flex-direction: column;
@@ -76,8 +83,10 @@ img{
     background-color: silver;
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
     border: 6px solid grey;
     color: red;
+    font-size: 15px;
   }
 }
 
@@ -101,15 +110,14 @@ img{
   justify-content: center;
   display: flex;
   font-size: 30px;
+  text-align: center;
   background-color: silver;
-  color:red;
-  margin: 20px;
-  width: 400px; ; 
+  color:red; 
   }
 }
 
 @media screen and (max-width: 768px) {
-  p1{
+  .about{
   border:solid 6px grey;
   justify-content: center;
   display: flex;
