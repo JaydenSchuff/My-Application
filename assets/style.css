@@ -1,3 +1,5 @@
+
+
 body{
   background-color: grey;
 }
@@ -55,9 +57,10 @@ img{
   border: 8px solid black;
   background-color: white;
   
+  
 }
 
-.aboutme{
+#aboutme{
   display: flex;
   justify-content: center;
 }
@@ -90,9 +93,13 @@ h3{
   width: 700px;
 }
 
+.placeholder{
+
+  border: solid black 3px;
+}
 
 @media screen and (max-width: 768px) {
-  .aboutme {
+  #aboutme {
     background-color: maroon;
     flex-wrap: wrap;
   }
