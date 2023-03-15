@@ -1,4 +1,10 @@
-
+:root{
+  --background:darkslategrey;
+  --font:30px;
+  --textcolor:white;
+  --altbackground:silver;
+  --alttextcolor:red;
+}
 
 body{
   background-color: grey;
@@ -8,22 +14,22 @@ header{
   border:solid 6px black;
   justify-content: center;
   display: flex;
-  font-size: 30px;
+  font-size: var(--font);
   background-color: darkslategray;
-  color:white;
+  color:var(--textcolor);
   margin: 20px;
 }
 
 nav{
 border: 6px solid black;
-color: aliceblue;
+color: var(--textcolor);
 display: flex;
-background-color: darkslategray;
+background-color: var(--background);
 justify-content: center;
 }
 
 a{
-  color: white;
+  color:var(--textcolor);
   font-size: 35px;
   text-align: center;
   padding: 14px 20px;
@@ -32,8 +38,8 @@ a{
 h2{
   border:solid 6px black;
   justify-content: center;
-  font-size: 30px;
-  background-color: darkslategray;
+  font-size:var(--font);
+  background-color:var(--background);
   color:white;
   margin: 20px;
   text-align: center;
@@ -42,9 +48,9 @@ h2{
 .about{
   border:solid 6px black;
   justify-content: center;
-  font-size: 30px;
-  background-color: darkslategray;
-  color:white;
+  font-size:var(--font);
+  background-color: var(--background);
+  color:var(--textcolor);
   width: 400px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -55,7 +61,7 @@ img{
   width: 400px;
   padding: 10px;
   border: 8px solid black;
-  background-color: white;
+  background-color:var(--textcolor);
   
   
 }
@@ -69,16 +75,16 @@ h3{
   display: flex;
   justify-content: center;
   border: 6px solid black;
-  background-color: darkslategray;
-  color: white;
+  background-color: var(--background);
+  color:var(--textcolor);
 }
 
 .Contact{
   display: flex;
   justify-content: space-around;
   border: 6px solid black;
-  background-color: darkslategray;
-  color: white;
+  background-color:var(--background);
+  color: var(--textcolor);
   ;
 }
 
@@ -106,7 +112,7 @@ h3{
 
 @media screen and (max-width: 768px) {
   nav {
-    background-color: silver;
+    background-color: var(--altbackground);
     flex-direction: column;
     border: 6px solid grey;
     
@@ -115,9 +121,9 @@ h3{
 
 @media screen and (max-width: 768px) {
   header {
-    background-color: silver;
+    background-color:var(--altbackground);
     border: 6px solid grey;
-    color: red;
+    color: var(--alttextcolor);
     flex-wrap: wrap;
     font-size: 15px;
     
@@ -125,7 +131,7 @@ h3{
 }
 @media screen and (max-width: 768px) {
   a {
-    color: red;
+    color: var(--alttextcolor);
     font-size: 25px;
   }
 }
@@ -144,8 +150,8 @@ h3{
   display: flex;
   font-size: 30px;
   text-align: center;
-  background-color: silver;
-  color:red; 
+  background-color: var(--altbackground);
+  color: var(--alttextcolor); 
   }
 }
 
@@ -155,8 +161,8 @@ h3{
   justify-content: center;
   display: flex;
   font-size: 30px;
-  background-color: silver;
-  color:red;
+  background-color:var(--altbackground);
+  color: var(--alttextcolor);
   margin: 20px;
   width: 400px; ; 
   }
@@ -169,8 +175,8 @@ h3{
   display: flex;
   font-size: 30px;
   text-align: center;
-  background-color: silver;
-  color:red; 
+  background-color:var(--altbackground);
+  color: var(--alttextcolor); 
   }
 }
 
@@ -180,17 +186,17 @@ h3{
   justify-content: center;
   display: flex;
   text-align: center;
-  background-color: silver;
-  color:red; 
+  background-color:var(--altbackground);
+  color: var(--alttextcolor); 
   justify-content: space-evenly;
   }
 }
 
 @media screen and (max-width: 768px) {
   img {
-    background-color: silver;
+    background-color: var(--altbackground);
     border: 6px solid grey;
-    color: red;
+    color:  var(--alttextcolor);
     flex-wrap: wrap;
     width: 300px;
   }
@@ -198,9 +204,9 @@ h3{
 
   @media screen and (max-width: 768px) {
     #firstapp {
-      background-color: silver;
+      background-color:var(--altbackground);
       border: 6px solid grey;
-      color: red;
+      color:  var(--alttextcolor);
       flex-wrap: wrap;
       width: 400px;
     }
