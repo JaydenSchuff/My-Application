@@ -3,12 +3,16 @@
   --background:darkslategrey;
   --font:30px;
   --textcolor:white;
-  --altbackground:silver;
+  --altbackground:darkslategray;
   --alttextcolor:red;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body{
-  background-color: grey;
+  background-color: white;
 }
 
 header{
@@ -34,6 +38,8 @@ a{
   font-size: 35px;
   text-align: center;
   padding: 14px 20px;
+  justify-content: center;
+  display: flex;
 }
 
 h2{
@@ -78,6 +84,24 @@ h3{
   color:var(--textcolor);
 }
 
+.link{
+  color:var(--textcolor);
+  font-size: 35px;
+  text-align: center;
+  padding: 14px 20px;
+  display: flex;
+}
+
+content{
+  display: inline;
+  font-size: 30px;
+  font-weight: bold;
+  color: var(--textcolor);
+  border: solid black 6px;
+  background-color: var(--altbackground);
+  text-align: center;
+}
+
 .Contact{
   display: flex;
   justify-content: space-around;
@@ -96,6 +120,8 @@ h3{
 
 #firstapp{
   width: 700px;
+  background-color: var(--altbackground);
+  justify-content: center;
 }
 
 .placeholder{
